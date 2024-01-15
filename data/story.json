@@ -2,18 +2,24 @@
   "parts": [
     {
       "id": 0,
-      "name": "Part 1",
-      "text": "This is part 1",
+      "name": "Choose an weapon",
+      "text": "Before you are three magical artifacts of great power, choose one of them to protect yourself with",
+      "image": "part1.jpg",
       "options": [
         {
-          "id": 0,
-          "text": "This takes you to part 2",
+          "id": 1,
+          "text": "Magical greatsword",
           "target": 1
         },
         {
-          "id": 1,
-          "text": "This takes you to part 3",
+          "id": 2,
+          "text": "Bow of sharpness",
           "target": 2
+        },
+        {
+          "id": 3,
+          "text": "Bloody axe",
+          "target": 3
         }
       ]
     },
@@ -38,6 +44,11 @@
           "id": 4,
           "text": "Go back to part 2",
           "target": 1
+        },
+        {
+          "id": 3,
+          "name": "Part 4",
+          "text": "This is part 4"
         }
       ]
     }
