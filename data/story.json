@@ -2,53 +2,71 @@
   "parts": [
     {
       "id": 0,
-      "name": "Choose an weapon",
-      "text": "Before you are three magical artifacts of great power, choose one of them to protect yourself with",
-      "image": "part1.jpg",
+      "name": "Choose a Magical Artifact",
+      "text": "In the mystical land of Eldoria, you find yourself standing before three legendary magical artifacts, each pulsating with arcane power. Your destiny awaits; choose one to protect yourself in your quest against the forces of darkness.",
+      "image": "part1_wizards.jpg",
       "options": [
         {
           "id": 1,
-          "text": "Magical greatsword",
+          "text": "Wand of Enchantment",
           "target": 1
         },
         {
           "id": 2,
-          "text": "Bow of sharpness",
+          "text": "Staff of Eldritch Arrows",
           "target": 2
         },
         {
           "id": 3,
-          "text": "Bloody axe",
+          "text": "Blade of Mystic Bloodlust",
           "target": 3
         }
       ]
     },
     {
       "id": 1,
-      "name": "Part 2",
-      "text": "This is part 2",
+      "name": "The Enchanted Wand",
+      "text": "As you grasp the Wand of Enchantment, a surge of magical energy courses through your veins. You feel a connection to the ancient wizards who once wielded this powerful artifact. The path ahead unfolds as you delve deeper into the enchanted realms.",
       "options": [
         {
           "id": 2,
-          "text": "Go back to start",
-          "target": 0
+          "text": "Continue your journey",
+          "target": 5
         }
       ]
     },
     {
       "id": 2,
-      "name": "Part 3",
-      "text": "This is part 3",
+      "name": "The Staff of Eldritch Arrows",
+      "text": "The Staff of Eldritch Arrows hums with eldritch power as you choose it. You sense the spirits of skilled archmages guiding your every step. As you venture forth, the staff responds to your will, unleashing arcane arrows that pierce through the shadows.",
       "options": [
         {
           "id": 4,
-          "text": "Go back to part 2",
+          "text": "Explore the mystical forest",
           "target": 1
         },
         {
           "id": 3,
-          "name": "Part 4",
-          "text": "This is part 4"
+          "name": "The Blade's Whisper",
+          "text": "You hear a mysterious whisper urging you to the next part.",
+          "target": 4
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "The Blade of Mystic Bloodlust",
+      "text": "With the Blade of Mystic Bloodlust in hand, you feel the ancient thirst for justice and righteousness. As you carve through the darkness, the blade feeds on the malevolent energies around you, empowering you for the challenges ahead.",
+      "options": [
+        {
+          "id": 1,
+          "text": "Embark on a new path",
+          "target": 6
+        },
+        {
+          "id": 2,
+          "text": "Enter the Mystic Citadel",
+          "target": 7
         }
       ]
     }
