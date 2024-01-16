@@ -4,7 +4,7 @@
       "id": 0,
       "name": "Choose a Magical Artifact",
       "text": "In the mystical land of Eldoria, you find yourself standing before three legendary magical artifacts, each pulsating with arcane power. Your destiny awaits; choose one to protect yourself in your quest against the forces of darkness.",
-      "image": "part1_wizards.jpg",
+      "image": "Part1.jpg",
       "options": [
         {
           "id": 1,
@@ -27,11 +27,17 @@
       "id": 1,
       "name": "The Enchanted Wand",
       "text": "As you grasp the Wand of Enchantment, a surge of magical energy courses through your veins. You feel a connection to the ancient wizards who once wielded this powerful artifact. The path ahead unfolds as you delve deeper into the enchanted realms.",
+      "image": "Part2.jpg",
       "options": [
         {
           "id": 2,
           "text": "Continue your journey",
           "target": 5
+        },
+        {
+          "id": 3,
+          "text": "Converse with the mystical spirits",
+          "target": 8
         }
       ]
     },
@@ -39,6 +45,7 @@
       "id": 2,
       "name": "The Staff of Eldritch Arrows",
       "text": "The Staff of Eldritch Arrows hums with eldritch power as you choose it. You sense the spirits of skilled archmages guiding your every step. As you venture forth, the staff responds to your will, unleashing arcane arrows that pierce through the shadows.",
+      "image":"Part4.jpg",
       "options": [
         {
           "id": 4,
@@ -46,10 +53,9 @@
           "target": 1
         },
         {
-          "id": 3,
-          "name": "The Blade's Whisper",
-          "text": "You hear a mysterious whisper urging you to the next part.",
-          "target": 4
+          "id": 5,
+          "text": "Summon a magical familiar",
+          "target": 9
         }
       ]
     },
@@ -57,6 +63,7 @@
       "id": 3,
       "name": "The Blade of Mystic Bloodlust",
       "text": "With the Blade of Mystic Bloodlust in hand, you feel the ancient thirst for justice and righteousness. As you carve through the darkness, the blade feeds on the malevolent energies around you, empowering you for the challenges ahead.",
+      "image":"Part3.jpg",
       "options": [
         {
           "id": 1,
@@ -64,11 +71,308 @@
           "target": 6
         },
         {
-          "id": 2,
-          "text": "Enter the Mystic Citadel",
-          "target": 7
+          "id": 6,
+          "text": "Unlock the hidden powers of the blade",
+          "target": 10
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "The Whispering Shadows",
+      "text": "The shadows whisper ancient secrets as you progress further into the mystical forest. You sense unseen eyes watching your every move. The air is thick with magic, and the path diverges, presenting new choices.",
+      "options": [
+        {
+          "id": 7,
+          "text": "Follow the luminescent butterflies",
+          "target": 11
+        },
+        {
+          "id": 8,
+          "text": "Confront the ethereal guardian",
+          "target": 12
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "The Veil of Illusions",
+      "text": "You enter an ethereal realm where illusions dance around you. The Wand of Enchantment guides you through the veil, revealing hidden truths. The air shimmers with magic, and paths materialize before you, each leading to a different destiny.",
+      "image":"Part5.jpg",
+      "options": [
+        {
+          "id": 9,
+          "text": "Walk the path of knowledge",
+          "target": 13
+        },
+        {
+          "id": 10,
+          "text": "Embrace the path of illusions",
+          "target": 14
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "The Mystic Citadel",
+      "text": "You arrive at the imposing Mystic Citadel, its ancient spires reaching towards the heavens. The Blade of Mystic Bloodlust pulsates with power as you stand before the entrance. A mysterious force beckons you deeper into the heart of the citadel.",
+      "image": "Part8.jpg",
+      "options": [
+        {
+          "id": 11,
+          "text": "Enter the Citadel's grand hall",
+          "target": 15
+        },
+        {
+          "id": 12,
+          "text": "Uncover the citadel's hidden history",
+          "target": 16
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "The Illuminated Grove",
+      "text": "You follow the luminescent butterflies through the enchanted grove. The air is filled with the soothing melodies of unseen creatures. The path leads you to a secluded clearing where an ancient fountain radiates magical energy.",
+      "options": [
+        {
+          "id": 13,
+          "text": "Drink from the magical fountain",
+          "target": 17
+        },
+        {
+          "id": 14,
+          "text": "Commune with the spirits of the grove",
+          "target": 18
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "The Ethereal Guardian",
+      "text": "As you confront the ethereal guardian, its form shifts between mist and shadow. The guardian speaks of trials and wisdom, offering a choice to those deemed worthy. Will you face the trials or seek a different path?",
+      "options": [
+        {
+          "id": 15,
+          "text": "Accept the guardian's trials",
+          "target": 19
+        },
+        {
+          "id": 16,
+          "text": "Bypass the guardian with magic",
+          "target": 20
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "The Path of Knowledge",
+      "text": "You walk the path of knowledge, surrounded by ancient tomes and mystical symbols. The Wand of Enchantment guides you to a hidden library where the secrets of Eldoria are archived. The knowledge within holds the key to unlocking greater magical potential.",
+      "options": [
+        {
+          "id": 17,
+          "text": "Study ancient spells",
+          "target": 21
+        },
+        {
+          "id": 18,
+          "text": "Seek guidance from the ancient sages",
+          "target": 22
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "The Path of Illusions",
+      "text": "Embracing the path of illusions, you traverse a surreal landscape where reality bends to your will. The Wand of Enchantment reveals the hidden truths behind the illusions, granting you the power to manipulate the fabric of reality.",
+      "image": "Part9.jpg",
+      "options": [
+        {
+          "id": 19,
+          "text": "Create a magical sanctuary",
+          "target": 23
+        },
+        {
+          "id": 20,
+          "text": "Confront the illusionary guardian",
+          "target": 24
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "The Grand Hall of the Citadel",
+      "text": "Entering the grand hall, you witness the ancient tapestries depicting the history of Eldoria. The Blade of Mystic Bloodlust resonates with the tales of valor and sacrifice. At the heart of the hall, a mysterious figure awaits, shrouded in a cloak of arcane energy.",
+      "options": [
+        {
+          "id": 21,
+          "text": "Listen to the figure's prophecy",
+          "target": 25
+        },
+        {
+          "id": 22,
+          "text": "Challenge the figure to a duel",
+          "target": 26
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "The Hidden History of the Citadel",
+      "text": "You delve into the hidden history of the Citadel, uncovering forgotten chambers and ancient artifacts. The Blade of Mystic Bloodlust resonates with the echoes of the past. As you unveil the secrets, a choice presents itself.",
+      "options": [
+        {
+          "id": 23,
+          "text": "Embrace the citadel's legacy",
+          "target": 27
+        },
+        {
+          "id": 24,
+          "text": "Seek the citadel's true purpose",
+          "target": 28
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "The Enchanted Spells",
+      "text": "As you study the ancient spells, you feel the surge of magical energy coursing through you. The Wand of Enchantment illuminates the pages, unlocking the secrets of powerful enchantments. A mystical portal appears, offering passage to unknown realms.",
+     "image":"Part7.jpg",
+      "options": [
+        {
+          "id": 25,
+          "text": "Step through the magical portal",
+          "target": 29
+        },
+        {
+          "id": 26,
+          "text": "Master the enchanted spells further",
+          "target": 30
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "The Guidance of Sages",
+      "text": "Seeking guidance from the ancient sages, you commune with ethereal beings of wisdom. The Wand of Enchantment amplifies their voices, providing insights into the mysteries of Eldoria. The sages offer a choice that will shape your destiny.",
+      "image":"Part6.jpg",
+      "options": [
+        {
+          "id": 27,
+          "text": "Follow the path of wisdom",
+          "target": 31
+        },
+        {
+          "id": 28,
+          "text": "Forge your own destiny",
+          "target": 32
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "The Prophecy Unveiled",
+      "text": "As you listen to the figure's prophecy, the grand hall resonates with magical energy. The Blade of Mystic Bloodlust reacts to the unfolding destiny. The figure reveals a path that intertwines with the fate of Eldoria, and a crucial decision lies ahead.",
+      "image":"Part10.jpg",
+      "options": [
+        {
+          "id": 29,
+          "text": "Accept your role in the prophecy",
+          "target": 33
+        },
+        {
+          "id": 30,
+          "text": "Challenge the prophecy and forge your own path",
+          "target": 34
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "The True Purpose Revealed",
+      "text": "As you seek the citadel's true purpose, ancient echoes guide you to a chamber of revelations. The Blade of Mystic Bloodlust resonates with the citadel's heartbeat. The true purpose unveils itself, presenting a decision that will shape the destiny of Eldoria.",
+      "image":"Part11.jpg",
+      "options": [
+        {
+          "id": 31,
+          "text": "Embrace the citadel's original purpose",
+          "target": 35
+        },
+        {
+          "id": 32,
+          "text": "Alter the citadel's purpose for a new era",
+          "target": 36
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "The Portal's Threshold",
+      "text": "Stepping through the magical portal, you find yourself at the threshold of unknown realms. The Wand of Enchantment guides your journey through dimensions unseen. A convergence of paths emerges, offering choices that lead to extraordinary destinations.",
+      "options": [
+        {
+          "id": 33,
+          "text": "Explore the realm of eternal night",
+          "target": 37
+        },
+        {
+          "id": 34,
+          "text": "Venture into the realm of perpetual daylight",
+          "target": 38
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "The Destiny's Crossroad",
+      "text": "As you forge your own destiny, the ancient sages applaud your courage. The Wand of Enchantment empowers you to navigate the intricate web of fate. A crossroad of destinies presents itself, and you must choose the path that resonates with your heart.",
+      "options": [
+        {
+          "id": 35,
+          "text": "Pursue the path of arcane mastery",
+          "target": 39
+        },
+        {
+          "id": 36,
+          "text": "Champion the cause of magical harmony",
+          "target": 40
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "The Unseen Nightrealm",
+      "text": "Exploring the realm of eternal night, shadows dance in mesmerizing patterns. The Wand of Enchantment reveals hidden passages that lead to realms untouched by moonlight. The Nightrealm poses challenges and choices that test the limits of your magical prowess.",
+      "options": [
+        {
+          "id": 37,
+          "text": "Master the shadows and embrace the night",
+          "target": 41
+        },
+        {
+          "id": 38,
+          "text": "Seek the source of eternal darkness",
+          "target": 42
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "The Radiant Dayrealm",
+      "text": "Venturing into the realm of perpetual daylight, you are bathed in the warm glow of eternal suns. The Wand of Enchantment unveils landscapes of unbridled magic. The Dayrealm unfolds with challenges and decisions that illuminate your magical destiny.",
+      "options": [
+        {
+          "id": 39,
+          "text": "Harness the power of eternal sunlight",
+          "target": 43
+        },
+        {
+          "id": 40,
+          "text": "Discover the secrets of the luminous realms",
+          "target": 44
         }
       ]
     }
   ]
-}
+  }
+

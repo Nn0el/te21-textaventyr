@@ -5,7 +5,14 @@ const story = require('../data/story.json')
 
 router.get('/', function (req, res) {
   console.log(story.parts[0])
-  res.render('index.njk', { title: 'Welcome', part: story.parts[0] })
+  res.render('index.njk', { title: 'Welcome', part: story.parts[0], username: req.session.username })
+})
+
+router.post('/username', function (req, res){
+req.session.username= req.body.username
+console.log(req.session.username)
+res.redirect('/')
+
 })
 
 router.get('/story/:id', function (req, res) {
@@ -15,6 +22,19 @@ router.get('/story/:id', function (req, res) {
     return
   }
   res.render('part.njk', { title: part.name, part: part })
+
+
+const name = part.name.replace('[PLAYER]' , req.session.username)
+console.log(part)
+part={...part, name: name}
+console.log(part)
+res.render('part.njk' , {title: name, part: part})
 })
+
+
+
+
+
+
 
 module.exports = router
