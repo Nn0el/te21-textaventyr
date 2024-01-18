@@ -49,8 +49,8 @@
       "options": [
         {
           "id": 4,
-          "text": "Explore the mystical forest",
-          "target": 1
+          "text": "Talk with the shadow within the staff",
+          "target": 4
         },
         {
           "id": 5,
@@ -81,6 +81,7 @@
       "id": 4,
       "name": "The Whispering Shadows",
       "text": "The shadows whisper ancient secrets as you progress further into the mystical forest. You sense unseen eyes watching your every move. The air is thick with magic, and the path diverges, presenting new choices.",
+      "image": "Part16.jpg",
       "options": [
         {
           "id": 7,
@@ -134,6 +135,7 @@
       "id": 7,
       "name": "The Illuminated Grove",
       "text": "You follow the luminescent butterflies through the enchanted grove. The air is filled with the soothing melodies of unseen creatures. The path leads you to a secluded clearing where an ancient fountain radiates magical energy.",
+      "image": "Part17.jpg",
       "options": [
         {
           "id": 13,
@@ -151,6 +153,7 @@
       "id": 8,
       "name": "The Ethereal Guardian",
       "text": "As you confront the ethereal guardian, its form shifts between mist and shadow. The guardian speaks of trials and wisdom, offering a choice to those deemed worthy. Will you face the trials or seek a different path?",
+      "image": "Part14.jpg",
       "options": [
         {
           "id": 15,
@@ -168,6 +171,7 @@
       "id": 9,
       "name": "The Path of Knowledge",
       "text": "You walk the path of knowledge, surrounded by ancient tomes and mystical symbols. The Wand of Enchantment guides you to a hidden library where the secrets of Eldoria are archived. The knowledge within holds the key to unlocking greater magical potential.",
+      "image":"Part15.jpg",
       "options": [
         {
           "id": 17,
@@ -203,6 +207,7 @@
       "id": 11,
       "name": "The Grand Hall of the Citadel",
       "text": "Entering the grand hall, you witness the ancient tapestries depicting the history of Eldoria. The Blade of Mystic Bloodlust resonates with the tales of valor and sacrifice. At the heart of the hall, a mysterious figure awaits, shrouded in a cloak of arcane energy.",
+      "image": "Part18.jpg",
       "options": [
         {
           "id": 21,
@@ -309,6 +314,7 @@
       "id": 17,
       "name": "The Portal's Threshold",
       "text": "Stepping through the magical portal, you find yourself at the threshold of unknown realms. The Wand of Enchantment guides your journey through dimensions unseen. A convergence of paths emerges, offering choices that lead to extraordinary destinations.",
+      
       "options": [
         {
           "id": 33,
@@ -343,6 +349,7 @@
       "id": 19,
       "name": "The Unseen Nightrealm",
       "text": "Exploring the realm of eternal night, shadows dance in mesmerizing patterns. The Wand of Enchantment reveals hidden passages that lead to realms untouched by moonlight. The Nightrealm poses challenges and choices that test the limits of your magical prowess.",
+      "image": "Part13.jpg",
       "options": [
         {
           "id": 37,
@@ -360,6 +367,7 @@
       "id": 20,
       "name": "The Radiant Dayrealm",
       "text": "Venturing into the realm of perpetual daylight, you are bathed in the warm glow of eternal suns. The Wand of Enchantment unveils landscapes of unbridled magic. The Dayrealm unfolds with challenges and decisions that illuminate your magical destiny.",
+      "image": "Part12.jpg",
       "options": [
         {
           "id": 39,
