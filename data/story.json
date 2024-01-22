@@ -224,7 +224,8 @@
     {
       "id": 12,
       "name": "The Hidden History of the Citadel",
-      "text": "You delve into the hidden history of the Citadel, uncovering forgotten chambers and ancient artifacts. The Blade of Mystic Bloodlust resonates with the echoes of the past. As you unveil the secrets, a choice presents itself.",
+      "text": "You delve into the hidden history of the Citadel, uncovering forgotten chambers and ancient artifacts. The Staff of Eldritch Arrows resonates with the echoes of the past. As you unveil the secrets, a choice presents itself.",
+      "image": "Part19.jpg",
       "options": [
         {
           "id": 23,
@@ -380,7 +381,117 @@
           "target": 44
         }
       ]
+    },
+    {
+      "id": 21,
+      "name": "The Shadowed Abyss",
+      "text": "As you master the shadows and embrace the night, you become a formidable wielder of darkness. The Nightrealm acknowledges you as its chosen guardian. You traverse the Shadowed Abyss, protecting Eldoria from unseen threats. Your name echoes through the ages as the Night's Silent Sentinel.",
+      "options": []
+    },
+    {
+      "id": 22,
+      "name": "The Source of Eternal Darkness",
+      "text": "In your quest to seek the source of eternal darkness, you uncover an ancient entity imprisoned at the heart of the Nightrealm. The Wand of Enchantment absorbs its essence, amplifying your power. With newfound strength, you become the Arbiter of Shadows, maintaining the delicate balance between light and dark.",
+      "options": []
+    },
+    {
+      "id": 23,
+      "name": "The Radiant Arcanist",
+      "text": "Harnessing the power of eternal sunlight, you ascend as the Radiant Arcanist. The Dayrealm becomes your canvas, and you paint the sky with radiant magic. Eldoria basks in the eternal daylight, and your name is forever etched as the Illuminator, a beacon of hope and prosperity.",
+      "options": []
+    },
+    {
+      "id": 24,
+      "name": "The Luminous Sage",
+      "text": "Discovering the secrets of the luminous realms, you transcend mortal limitations. The Wand of Enchantment transforms you into the Luminous Sage, a being of pure arcane wisdom. Eldoria flourishes under your guidance, and your influence shapes a new era of enlightenment and magical prosperity.",
+      "options": []
+    },
+    {
+      "id": 25,
+      "name": "The Prophesied Guardian",
+      "text": "Accepting your role in the prophecy, you emerge as the Prophesied Guardian. The grand hall resonates with your every step as the Blade of Mystic Bloodlust gleams with destiny. Eldoria thrives under your vigilant protection, and your legacy endures as the Guardian of the Ancient Prophecy.",
+      "image": "Part24.jpg",
+      "options": []
+    },
+    {
+      "id": 26,
+      "name": "The Challenger's Triumph",
+      "text": "Challenging the figure to a duel, you prove your mettle in a battle of magical prowess. The Wand of Enchantment enhances your every strike, and the grand hall witnesses your triumph. You ascend as the Challenger's Triumph, a living testament to the strength of individual will and magical mastery.",
+      "image": "Part25.jpg",
+      "options": []
+    },
+    {
+      "id": 27,
+      "name": "The Legacy Embraced",
+      "text": "Embracing the citadel's legacy, you embody the essence of Eldoria's ancient power. The Blade of Mystic Bloodlust resonates with the spirits of past wielders. As the Legacy Embraced, you guide Eldoria with a profound understanding of its history, ensuring a harmonious future for generations to come.",
+      "image": "Part26.jpg",
+      "options": []
+    },
+    {
+      "id": 28,
+      "name": "The Citadel's New Purpose",
+      "text": "Seeking the citadel's true purpose, you redefine its destiny for a new era. The Wand of Enchantment reconstructs the citadel's magical essence. As the Architect of Renewal, you shape Eldoria's future, leading the citadel into an age of innovation and mystical renaissance.",
+      "image": "Part27.jpg",
+      "options": []
+    },
+    {
+      "id": 29,
+      "name": "The Interdimensional Explorer",
+      "text": "Stepping through the magical portal, you become the Interdimensional Explorer. The Wand of Enchantment guides you through realms beyond imagination. Eldoria benefits from the knowledge and treasures you bring, establishing itself as a hub of magical diversity and cross-dimensional wonders.",
+     "image": "Part20.jpg",
+      "options": []
+    },
+    {
+      "id": 30,
+      "name": "The Master of Enchantments",
+      "text": "Mastering the enchanted spells further, you evolve into the Master of Enchantments. The Wand of Enchantment radiates with the culmination of your magical prowess. Eldoria thrives under your spellbound influence, becoming a realm where enchantments shape reality itself.",
+      "image": "Part21.jpg",
+      "options": []
+    },
+    {
+      "id": 31,
+      "name": "The Sage's Wisdom",
+      "text": "Following the path of wisdom, you embody the Sage's Wisdom. The ancient sages' guidance becomes a part of you, and the Wand of Enchantment resonates with profound insights. Eldoria flourishes under your wise rule, standing as a testament to the enduring power of knowledge.",
+      "image": "Part23.jpg",
+      "options": []
+    },
+    {
+      "id": 32,
+      "name": "The Artisan of Destiny",
+      "text": "Forging your own destiny, you emerge as the Artisan of Destiny. The Wand of Enchantment grants you the ability to shape the fabric of reality. Eldoria becomes a canvas for your magical artistry, and your legacy as the Weaver of Fates transforms the realm into a living tapestry of endless possibilities.",
+      "image": "Part22.jpg",
+      "options": []
+    },
+    {
+      "id": 33,
+      "name": "The Fulfilled Prophecy",
+      "text": "Accepting your role in the prophecy, Eldoria thrives under your watchful gaze. The grand hall echoes with tales of your valor, and the Blade of Mystic Bloodlust remains a symbol of hope. The Fulfilled Prophecy becomes a guiding light for future generations, ensuring a harmonious and magical legacy.",
+      "options": []
+    },
+    {
+      "id": 34,
+      "name": "The Defiant Pathfinder",
+      "text": "Challenging the prophecy, you forge your own path through Eldoria. The grand hall witnesses your defiance, and the Blade of Mystic Bloodlust becomes a symbol of individual agency. As the Defiant Pathfinder, you carve a unique destiny, leaving an indelible mark on Eldoria's magical history.",
+      "options": []
+    },
+    {
+      "id": 35,
+      "name": "The Custodian of Tradition",
+      "text": "Embracing the citadel's original purpose, you become the Custodian of Tradition. The Blade of Mystic Bloodlust resonates with the ancient guardians of Eldoria. Under your guidance, the citadel stands as a bastion of tradition, preserving the mystical heritage for generations to come.",
+      "options": []
+    },
+    {
+      "id": 36,
+      "name": "The Architect of Innovation",
+      "text": "Altering the citadel's purpose for a new era, you rise as the Architect of Innovation. The Wand of Enchantment transforms the citadel into a beacon of progress. Eldoria becomes a realm of magical advancement, and your legacy as the Catalyst of Change shapes a future defined by innovation and renewal.",
+      "options": []
+    },
+    {
+      "id": 37,
+      "name": "The Eternal Nightwalker",
+      "text": "Exploring the realm of eternal night, you embrace the shadows as the Eternal Nightwalker. The Wand of Enchantment grants you mastery over darkness, and Eldoria benefits from your vigilance."
     }
+    
   ]
   }
 
