@@ -32,7 +32,7 @@ console.log(part)
 res.render('part.njk' , {title: name, part: part})
 })
 
-router.get('/dbtest', async (req, res) => {
+router.get('/dbtest/:id', async (req, res) => {
 try {
   const [parts] = await pool.promise().query(`SELECT * FROM noel_part WHERE id = ${id}`)
   const [options] = await pool.promise.query(`SELECT * FROM noel_option WHERE id = ${id}`)
