@@ -34,7 +34,7 @@ res.render('part.njk' , {title: name, part: part})
 
 router.get('/dbtest', async (req, res) => {
 try {
-  const [parts] = await pool.promise().query('SELECT * FROM jens_part')
+  const [parts] = await pool.promise().query('SELECT * FROM noel_part')
   res.json({parts})
 } catch (error){
 
