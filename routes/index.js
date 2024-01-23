@@ -1,5 +1,6 @@
 const express = require('express')
 const router = express.Router()
+const pool = require('../db')
 
 const story = require('../data/story.json')
 
@@ -31,7 +32,19 @@ console.log(part)
 res.render('part.njk' , {title: name, part: part})
 })
 
+router.get('/dbtest', async (req, res) => {
+try {
+  const [parts] = await pool.promise().query('SELECT * FROM jens_part')
+  res.json({parts})
+} catch (error){
 
+  console.log (error)
+  res.sendStatus(500)
+}
+
+}
+
+)
 
 
 
