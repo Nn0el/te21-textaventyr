@@ -57,16 +57,18 @@ res.render('part.njk'),{
 
   part,
 }
+
 }
 catch (error){
 
   console.log (error)
   res.sendStatus(500)
 }
+module.exports = router
 }
 
 )
 
 
-module.exports = router
+
 
