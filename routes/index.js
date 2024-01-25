@@ -47,20 +47,26 @@ try {
   .promise()
 
   .query(`SELECT * FROM noel_option WHERE id = ${id}`)
+  const part = {...parts[0], options}
   
-  res.json({parts, options})
-} catch (error){
+res.render('part.njk'),{
+
+  username: req.session.username,
+
+  title: part.name,
+
+  part,
+}
+}
+catch (error){
 
   console.log (error)
   res.sendStatus(500)
 }
-
 }
 
 )
 
 
-
-
-
 module.exports = router
+
